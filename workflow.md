@@ -3,7 +3,19 @@
 This is the route we are walking with the first app, a time-tracking app for companies. Later we walk the same route with your own app.
 Each phase has a goal, steps, tools and a gate: you only move on when the gate is open.
 
-Status: we have done phases 1 to 6, phase 7 is in progress, phases 8 and 9 are still ahead. What is written there is the plan, not experience yet.
+Status: phase 0 is for beginners. We have done phases 1 to 6, phase 7 is in progress, phases 8 and 9 are still ahead. What is written there is the plan, not experience yet.
+
+## 0. Start here if you are new
+
+Goal: know enough about code and AI to follow the rest of this route. You do not need to know anything yet.
+
+- Read the [glossary](glossary.md) first. Every new word in this repo is explained there.
+- Make something tiny before you make your own app: change a text or a colour in a small example app and see what happens. Expo Snack (snack.expo.dev) runs an app in your browser, so you do not have to install anything.
+- Learn to read code before you write a lot of it. When the AI writes code, ask it to explain every line until you understand it.
+- AI is a helper, not a boss. It makes mistakes too. You check its work, just like we do in the lessons.
+- Learn git early: save small steps, so you can always go back.
+
+Gate: you can change something small in an app, explain what you changed, and save it as a commit.
 
 ## 1. Idea
 

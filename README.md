@@ -8,12 +8,14 @@ We share everything we learn, so others can use it too: parents, pupils and teac
 
 ## What is in here
 
+- **New to code and AI?** Start with phase 0 in [workflow.md](workflow.md) and keep the [glossary](glossary.md) open while you read.
 - [workflow.md](workflow.md): the route in phases, from idea to publishing. For each phase: the goal, the steps, the tools, and the gate, the moment you may move on to the next phase.
 - [lessons.md](lessons.md): what we learned along the way, with dates. What went wrong, what went well, what we do differently from now on.
 
 ## How we work
 
-- We write in plain English, so a first-year pupil can follow it.
+- We write in plain English, so a first-year pupil can follow it, even without knowing anything about code or AI yet.
+- Every new word goes into the glossary.
 - Every lesson comes from something that really happened, not from a book.
 - Phases we have not done yet are written as a plan. We fill them in once we have walked them.
 
