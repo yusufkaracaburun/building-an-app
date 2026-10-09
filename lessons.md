@@ -5,6 +5,34 @@ Newest on top.
 
 ## 2026-10-09 · The first app
 
+**Prove your main claim.**
+The promise of the first app is that booking your hours is simple. "Simple" is a feeling, and you cannot test a feeling. So we turned it into a number you can check: a whole week of hours in 6 taps. An automated test counts the taps and fails if a new feature adds one.
+From now on: turn your app's main promise into a number, and let a test guard it. A claim without proof is just hope.
+
+**Fewer steps beats more features.**
+Most people book the same work again and again. So we added a "Recent" list: the most common booking now needs one tap, instead of searching and typing. The list of projects also shows straight away, instead of hiding behind a search box you first have to tap.
+From now on: before adding a feature, ask whether you can remove a step instead. Every step you save helps every user, every day.
+
+**Motion should explain, not decorate.**
+We only added animation where it tells you something. The screen slides left or right when you go to another week, so you feel which way you moved in time. After saving, the total counts up, so you see that your hours were added. People who turn on "reduce motion" in their phone settings get no movement at all, because motion can make some people feel sick. Illustrations wait until real users show us where they get stuck.
+From now on: for every animation, say what it explains. If it explains nothing, leave it out.
+
+**Design dark mode once.**
+Many people use their phone in dark mode, so every screen needs a light and a dark version. Drawing every screen twice doubles the work, and the two versions slowly drift apart. Instead, every colour has a name (a "token"), like "background" or "main button". One brand-kit page shows all tokens in both themes, and the screens use the names, so they follow automatically.
+From now on: never pick a loose colour on a screen. Use a named token, and check both themes on one page.
+
+**A pilot is for learning.**
+In a pilot a small group of real users tries the app before everyone gets it. The point is to hear what works, what does not and what is missing. Our poster for the pilot says "test with us" instead of promising a long list of features, because a list of promises makes people expect a finished product.
+From now on: invite pilot users to help you learn, and promise only what is already there.
+
+**Prepare the release before you need it.**
+While other work was running, we already prepared the build settings, the privacy answers for the app stores and a step-by-step checklist. So later the store step is one command, not a week of puzzling. The app stores ask for a web address of your privacy policy and a web address where users can delete their account. To answer their questions you have to know exactly what data your app sends and stores.
+From now on: start the store paperwork early, and keep a list of every piece of data your app collects and why.
+
+**One person leads, helpers do the work.**
+Several AI helpers worked at the same time, each on its own copy of the code (a git "worktree"), so they could not mess up each other's work. One lead kept track of who did what and checked the results. Heavy jobs, like starting a phone simulator or running all the tests, run one at a time, because two at once make the laptop so slow that both fail.
+From now on: one lead, one copy of the code per helper, and one heavy job at a time.
+
 **A new operating system can break your app.**
 On iOS 27 the app crashed the moment it started. Since that version Apple requires a different way of starting an app, and our version of Expo did not do that yet. On an older iPhone simulator everything worked, so without testing on the newest version we would only have found out from users.
 From now on: always test on the newest iOS and Android, and on the newest phones.

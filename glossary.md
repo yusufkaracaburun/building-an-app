@@ -21,6 +21,7 @@ If you find a word that is not here, add it.
 - **Unit test**: a test for one small piece of code on its own. Fast.
 - **E2E test** (end-to-end): a test that uses the whole app like a person would, from start to finish. Slow, but close to real life.
 - **Happy flow**: the path where everything goes right.
+- **Reduce motion**: a phone setting that asks apps to turn off animations, for people who get dizzy or distracted by movement.
 - **Lint**: a tool that reads your code and warns about mistakes and messy style.
 - **Type check**: TypeScript checking that every value is the kind of thing you said it would be.
 
@@ -33,6 +34,7 @@ If you find a word that is not here, add it.
 - **Database**: where the server keeps its data, like a very big, very fast spreadsheet.
 - **Mock**: a fake server you write yourself, so you can build before the real one is ready.
 - **Token / key**: a secret code that proves who you are. Never put it in your app or in a public repo.
+- **Privacy policy**: a public web page that explains what data your app collects, why, and what you do with it. The app stores require one.
 
 ## Working together
 
@@ -41,6 +43,7 @@ If you find a word that is not here, add it.
 - **Repository** (repo): a project folder that git keeps track of.
 - **GitHub**: a website where you store a repo online and work on it with others.
 - **Review**: someone else (or a tool) reads your change before it is saved for good.
+- **Worktree**: an extra copy of your repo in another folder, on its own branch, so two helpers can work at the same time without getting in each other's way.
 
 ## Design and planning
 
@@ -48,6 +51,9 @@ If you find a word that is not here, add it.
 - **Design file**: a drawing of every screen before you build it. We use a tool called Pencil.
 - **Master**: a building block in the design file that many screens reuse, like a stamp.
 - **Gate**: a checkpoint. You only move on when the work is good enough.
+- **Design token**: a name for a colour, size or font, like "background" or "main button". Screens use the name, so you change the value in one place.
+- **Dark mode**: a version of the app with dark backgrounds and light text, nicer at night. The phone switches between light and dark mode.
+- **Pilot**: a short first try of the app with a small group of real users, to learn what works before everyone gets it.
 - **ADR** (architecture decision record): a short note that writes down a big decision and why you made it.
 
 ## AI
